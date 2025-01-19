@@ -1,0 +1,105 @@
+/* assets/css/admin/backup.css */
+.fcrm-backup-container {
+	max-width: 960px;
+	margin: 20px 0;
+}
+
+.fcrm-backup-description {
+	margin-bottom: 20px;
+}
+
+.fcrm-backup-content {
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #ccd0d4;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	border-radius: 4px;
+}
+
+.fcrm-backup-header {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.settings-list {
+	margin: 20px 0;
+}
+
+.setting-item {
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	margin: 4px 0;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.setting-item:hover {
+	background-color: #f5f5f5;
+}
+
+.setting-item label {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	cursor: pointer;
+}
+
+.setting-label {
+	margin-left: 8px;
+	flex-grow: 1;
+}
+
+.setting-key {
+	color: #666;
+	font-size: 0.9em;
+	margin-left: 10px;
+	background: #f0f0f1;
+	padding: 2px 6px;
+	border-radius: 3px;
+}
+
+.fcrm-backup-actions {
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px solid #eee;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.action-buttons {
+	display: flex;
+	gap: 10px;
+}
+
+.button .dashicons {
+	margin: 4px 4px 0 -2px;
+}
+
+.import-section {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.notice-container {
+	margin: 20px 0;
+}
+
+/* Style adjustments for WordPress admin theme */
+.fcrm-backup-container .button-link-delete:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.fcrm-backup-container .notice p {
+	margin: 0.5em 0;
+	padding: 2px;
+}
+
+.fcrm-backup-container .notice.notice-info {
+	border-left-color: #72aee6;
+}
